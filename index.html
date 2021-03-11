@@ -23,7 +23,7 @@
           <h1 class="form__header">Register Form</h1>
           <form class="form__wrapper">
             <div class="input">
-              <label for="username" class="input__label">
+              <label for="username" class="input__label--icon">
                 <span class="fas fa-user"></span>
               </label>
               <input
@@ -34,21 +34,225 @@
                 placeholder="Username"
               />
             </div>
-            <div class="input"><label for="password" class="input__label"><span class="fas fa-lock"></span></label>
-                <input type="password" name="password" id="password" class="input__field" placeholder="Password">
+            <div class="input">
+              <label for="password" class="input__label--icon"
+                ><span class="fas fa-lock"></span
+              ></label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="input__field"
+                placeholder="Password"
+              />
             </div>
-            <div class="input"><label for="confirmPassword" class="input__label"><span class="fas fa-lock"></span></label>
-            <input type="password" name="confirmPassword" id="confirmPassword" class="input__field" placeholder="Confirm Password">
+            <div class="input">
+              <label for="confirmPassword" class="input__label--icon"
+                ><span class="fas fa-lock"></span
+              ></label>
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                class="input__field"
+                placeholder="Confirm Password"
+              />
             </div>
-            <div class="input"><label for="email" class="input__label"><span class="fas fa-envelope"></span></label>
-            <input type="email" name="email" id="email" class="input__field" placeholder="Email">
+            <div class="input">
+              <label for="email" class="input__label--icon"
+                ><span class="fas fa-envelope"></span
+              ></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="input__field"
+                placeholder="Email"
+              />
             </div>
-            <div class="input"><label for="location" class="input__label"><span class="fas fa-map-pin"></span></label></div>
-            <div class="input"><label for="" class="input__label"><span class=""></span></label></div>
+            <div class="input">
+              <label for="location" class="input__label--icon"
+                ><span class="fas fa-map-marker-alt"></span
+              ></label>
+              <select
+                name="location"
+                id="location"
+                class="input__field"
+                placeholder="Your location"
+              >
+                <option>Warsaw</option>
+              </select>
+            </div>
+            <div class="input">
+              <label for="checkbox" class="input__label--checkbox"
+                >I have read and accept the terms of use</label
+              >
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                class="input__checkbox"
+              />
+            </div>
+            <div class="input">
+              <button class="input__button">Sign up</button>
+            </div>
+          </form>
+        </div>
+        <div class="form">
+          <h1 class="form__header">Send Email</h1>
+          <form class="form__wrapper">
+            <div class="input">
+              <label for="yourName" class="input__label--icon">
+                <span class="fas fa-user"></span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="yourName"
+                class="input__field"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="input">
+              <label for="yourEmail" class="input__label--icon"
+                ><span class="fas fa-envelope"></span
+              ></label>
+              <input
+                type="email"
+                name="yourEmail"
+                id="yourEmail"
+                class="input__field"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="input">
+              <label for="message"></label>
+              <textarea
+                id="message"
+                placeholder="Type your message ..."
+                class="input__textarea"
+              ></textarea>
+            </div>
+            <div class="input">
+              <label for="sendCopy" class="input__label--checkbox">
+                Send a copy to my Email
+              </label>
+              <input
+                type="checkbox"
+                name="sendCopy"
+                id="sendCopy"
+                class="input__checkbox"
+              />
+            </div>
+            <div class="input">
+              <button class="input__button">Send Email</button>
+            </div>
           </form>
         </div>
       </div>
-      <div class="main__column"></div>
+      <div class="main__column">
+        <div class="form">
+          <h1 class="form__header">Sign In Form</h1>
+          <form class="form__wrapper">
+            <div class="input">
+              <label for="userName" class="input__label--icon"
+                ><span class="fas fa-user"></span
+              ></label>
+              <input
+                type="text"
+                name="userName"
+                id="userName"
+                class="input__field"
+                placeholder="Username"
+              />
+            </div>
+            <div class="input">
+              <label for="userPassword" class="input__label--icon"
+                ><span class="fas fa-lock"></span
+              ></label>
+              <input
+                type="password"
+                name="userPassword"
+                id="userPassword"
+                class="input__field"
+                placeholder="Password"
+              />
+            </div>
+            <div class="input">
+              <label for="rememberCheck" class="input__label--checkbox"
+                >Remember me</label
+              >
+              <input
+                type="checkbox"
+                name="rememberCheck"
+                id="rememberCheck"
+                class="input__checkbox"
+              />
+            </div>
+            <div class="input">
+              <button class="input__button--small">Sign In</button>
+            </div>
+          </form>
+        </div>
+        <div class="form">
+          <h1 class="form__header">Recover Form</h1>
+          <form class="form__wrapper">
+            <div class="input">
+              <label for="enterEmail" class="input__label--icon">
+                <span class="fas fa-envelope"></span
+              ></label>
+              <input
+                type="email"
+                name="enterEmail"
+                id="enterEmail"
+                class="input__field"
+                placeholder="Enter your Email"
+              />
+            </div>
+            <div class="input">
+              <label for="phoneNumber" class="input__label--icon">
+                <span class="fas fa-mobile-alt"></span>
+              </label>
+              <input
+                type="tel"
+                name="phoneNumber"
+                id="phoneNumber"
+                class="input__field"
+                placeholder="Enter your Phone number"
+              />
+            </div>
+            <div class="input">
+              <button class="input__button--small">Send</button>
+              <button class="input__button--small">Done</button>
+            </div>
+          </form>
+        </div>
+        <div class="form">
+          <h1 class="form__header">Subscribe Form</h1>
+          <form class="form__wrapper">
+            <div class="input">
+              <label for="subscribeEmail" class="input__label--icon">
+                <span class="fas fa-envelope"></span>
+              </label>
+              <input
+                type="email"
+                name="subscribeEmail"
+                id="subscribeEmail"
+                class="input__field"
+                placeholder="Enter your Email"
+              />
+            </div>
+            <div class="input">
+              <button class="input__button--small">Subscribe</button>
+              <button class="input__button--small input__button--negative">
+                No, Thanks
+              </button>
+            </div>
+          </form>
+        </div>
+        <img src="image_asset/Masteralb.com LOGO.svg" alt="bottom logo" />
+      </div>
     </main>
   </body>
 </html>
