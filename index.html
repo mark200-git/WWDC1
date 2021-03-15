@@ -70,16 +70,17 @@
                 placeholder="Email"
               />
             </div>
-            <div class="input">
+            <div class="input input__selection">
               <label for="location" class="input__label--icon"
                 ><span class="fas fa-map-marker-alt"></span
               ></label>
-              <select
+              <select 
                 name="location"
                 id="location"
-                class="input__field"
+                class="input__field input__select"
                 placeholder="Your location"
               >
+              <option  disabled value="" hidden >Your location</option>
                 <option>Warsaw</option>
               </select>
             </div>
