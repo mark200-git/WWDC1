@@ -25,254 +25,292 @@
       <div class="main__column">
         <div class="form">
           <h1 class="form__header">Register Form</h1>
-          <form class="form__inner">
-            <div class="input input__field">
-              <label for="username" class="input__label--icon">
-                <span class="fas fa-user"></span>
-              </label>
-              <input
-                type="text"
-                name="username"
-                id="username"
-                class="input__text"
-                placeholder="Username"
-              />
-            </div>
-            <div class="input input__field">
-              <label for="password" class="input__label--icon">
-                <span class="fas fa-lock"></span>
-              </label>
-              <input
-                type="password"
-                name="password"
-                id="password"
-                class="input__text"
-                placeholder="Password"
-              />
-            </div>
-            <div class="input input__field">
-              <label for="passwordConfirm" class="input__label--icon"
-                ><span class="fas fa-lock"></span
-              ></label>
-              <input
-                type="password"
-                name="passwordConfirm"
-                id="passwordConfirm"
-                class="input__text"
-                placeholder="Confirm Password"
-              />
-            </div>
-            <div class="input input__field">
-              <label for="email" class="input__label--icon">
-                <span class="fas fa-envelope"></span>
-              </label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                class="input__text"
-                placeholder="Email"
-              />
-            </div>
-            <div class="input input__field--select">
-              <label for="location" class="input__label--icon"
-                ><span class="fas fa-map-marker-alt"></span
-              ></label>
-              <select name="location" id="location" class="input__select">
-                <option>Your Location</option>
-                <option>Warsaw</option>
-              </select>
-            </div>
-            <div class="input input__checker">
-             
-              <label for="terms" class="input__label--text"
-                >
+          <div class="form__shadow">
+            <form class="form__inner">
+              <div class="input input__field">
+                <label for="username" class="input__label--icon">
+                  <span class="fas fa-user"></span>
+                </label>
                 <input
-                type="checkbox"
-                name="terms"
-                id="terms"
-                class="input__checkbox"
-              />
-               <span class="label">I have read and accept the terms of use.</span>
-              </label>
-              
-            </div>
-            <div class="input">
-              <button class="input__button input__button--big">Sign up</button>
-            </div>
-          </form>
+                  type="text"
+                  name="username"
+                  id="username"
+                  class="input__text"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="input input__field">
+                <label for="password" class="input__label--icon">
+                  <span class="fas fa-lock"></span>
+                </label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="input__text"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="input input__field">
+                <label for="passwordConfirm" class="input__label--icon"
+                  ><span class="fas fa-lock"></span
+                ></label>
+                <input
+                  type="password"
+                  name="passwordConfirm"
+                  id="passwordConfirm"
+                  class="input__text"
+                  placeholder="Confirm Password"
+                />
+              </div>
+              <div class="input input__field">
+                <label for="email" class="input__label--icon">
+                  <span class="fas fa-envelope"></span>
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="input__text"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="input input__field--select">
+                <label for="location" class="input__label--icon"
+                  ><span class="fas fa-map-marker-alt"></span
+                ></label>
+                <select name="location" id="location" class="input__select">
+                  <option>Your Location</option>
+                  <option>Warsaw</option>
+                </select>
+              </div>
+              <div class="input input__checker">
+                <label for="terms" class="input__label--text">
+                  I have read and accept the terms of use.
+                </label>
+                <input
+                  type="checkbox"
+                  name="terms"
+                  id="terms"
+                  class="input__checkbox"
+                />
+              </div>
+              <div class="input">
+                <button
+                  class="
+                    input__button input__button--big input__button--positive
+                  "
+                >
+                  Sign up
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
 
         <div class="form">
           <h1 class="form__header">Send Email</h1>
-          <form class="form__inner">
-            <div class="input input__field">
-              <label for="emailName" class="input__label--icon">
-                <span class="fas fa-user"></span>
-              </label>
-              <input
-                type="text"
-                name="emailName"
-                id="emailName"
-                class="input__text"
-                placeholder="Your Name"
-              />
-            </div>
-            <div class="input input__field">
-              <label for="emailAddress" class="input__label--icon">
-                <span class="fas fa-envelope"></span>
-              </label>
-              <input
-                type="email"
-                name="emailAddress"
-                id="emailAddress"
-                class="input__text"
-                placeholder="Your Email"
-              />
-            </div>
-            <div class="input">
-              <label for="message"></label>
-              <textarea
-                name="message"
-                id="message"
-                class="input__textarea"
-                placeholder="Type your message ..."
-              ></textarea>
-            </div>
-            <div class="input input__checker">
-              <label for="sendCopyEmail" class="input__label--text"
-                >Send a copy to my Email</label
-              >
-              <input
-                type="checkbox"
-                name="sendCopyEmail"
-                id="sendCopyEmail"
-                class="input__checkbox"
-              />
-            </div>
-            <div class="input">
-              <button class="input__button input__button--big">
-                Send Email
-              </button>
-            </div>
-          </form>
+          <div class="form__shadow">
+            <form class="form__inner">
+              <div class="input input__field">
+                <label for="emailName" class="input__label--icon">
+                  <span class="fas fa-user"></span>
+                </label>
+                <input
+                  type="text"
+                  name="emailName"
+                  id="emailName"
+                  class="input__text"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="input input__field">
+                <label for="emailAddress" class="input__label--icon">
+                  <span class="fas fa-envelope"></span>
+                </label>
+                <input
+                  type="email"
+                  name="emailAddress"
+                  id="emailAddress"
+                  class="input__text"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="input">
+                <label for="message"></label>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="input__textarea"
+                  placeholder="Type your message ..."
+                ></textarea>
+              </div>
+              <div class="input input__checker">
+                <label for="sendCopyEmail" class="input__label--text">
+                  Send a copy to my Email
+                </label>
+                <input
+                  type="checkbox"
+                  name="sendCopyEmail"
+                  id="sendCopyEmail"
+                  class="input__checkbox"
+                />
+              </div>
+              <div class="input">
+                <button
+                  class="
+                    input__button input__button--big input__button--positive
+                  "
+                >
+                  Send Email
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
       <div class="main__column">
         <div class="form">
           <h1 class="form__header">Sign In Form</h1>
-          <form class="form__inner">
-            <div class="input input__field">
-              <label for="signNick" class="input__label--icon">
-                <span class="fas fa-user"></span>
-              </label>
-              <input
-                type="text"
-                name="signNick"
-                id="signNick"
-                class="input__text"
-                placeholder="Username"
-              />
-            </div>
-            <div class="input input__field">
-              <label for="signPassword" class="input__label--icon">
-                <span class="fas fa-lock"></span>
-              </label>
-              <input
-                type="password"
-                name="signPassword"
-                id="signPassword"
-                class="input__text"
-                placeholder="Password"
-              />
-            </div>
-            <div class="input input__checker">
-              <label for="remember" class="input__label--text">
-                Remember me
-              </label>
-              <input
-                type="checkbox"
-                name="remember"
-                id="remember"
-                class="input__checkbox"
-              />
-            </div>
-            <div class="input">
-              <button class="input__button input__button--med">Sign in</button>
-            </div>
-          </form>
+          <div class="form__shadow">
+            <form class="form__inner">
+              <div class="input input__field">
+                <label for="signNick" class="input__label--icon">
+                  <span class="fas fa-user"></span>
+                </label>
+                <input
+                  type="text"
+                  name="signNick"
+                  id="signNick"
+                  class="input__text"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="input input__field">
+                <label for="signPassword" class="input__label--icon">
+                  <span class="fas fa-lock"></span>
+                </label>
+                <input
+                  type="password"
+                  name="signPassword"
+                  id="signPassword"
+                  class="input__text"
+                  placeholder="Password"
+                  <!-- value="Password" -->
+                />
+              </div>
+              <div class="input__group">
+                <div class="input input__checker">
+                  <label for="remember" class="input__label--text">
+                    Remember me
+                  </label>
+                  <input
+                    type="checkbox"
+                    name="remember"
+                    id="remember"
+                    class="input__checkbox"
+                  />
+                </div>
+                <div class="input">
+                  <button
+                    class="
+                      input__button input__button--small input__button--positive
+                    "
+                  >
+                    Sign in
+                  </button>
+                </div>
+              </div>
+            
+            </form>
+          </div>
         </div>
         <div class="form">
           <h1 class="form__header">Recover Form</h1>
-          <form class="form__inner">
-            <div class="input input__field">
-              <label for="recoverEmail" class="input__label--icon">
-                <span class="fas fa-envelope"></span>
-              </label>
-              <input
-                type="email"
-                name="recoverEmail"
-                id="recoverEmail"
-                class="input__text"
-                placeholder="Enter your Email"
-              />
-            </div>
-            <div class="input input__field">
-              <label for="phoneNumber" class="input__label--icon"
-                ><span class="fas fa-mobile-alt"></span
-              ></label>
-              <input
-                type="tel"
-                name="phoneNumber"
-                id="phoneNumber"
-                class="input__text"
-                placeholder="Enter your Phone number"
-              />
-            </div>
-            <div class="input input__group">
-              <button
-                class="input__button input__button--small input__button--positive"
-              >
-                Send
-              </button>
-              <button
-                class="input__button input__button--small input__button--positive"
-              >
-                Done
-              </button>
-            </div>
-          </form>
+          <div class="form__shadow">
+            <form class="form__inner">
+              <div class="input input__field">
+                <label for="recoverEmail" class="input__label--icon">
+                  <span class="fas fa-envelope"></span>
+                </label>
+                <input
+                  type="email"
+                  name="recoverEmail"
+                  id="recoverEmail"
+                  class="input__text"
+                  placeholder="Enter your Email"
+                />
+              </div>
+              <div class="input input__field">
+                <label for="phoneNumber" class="input__label--icon"
+                  ><span class="fas fa-mobile-alt"></span
+                ></label>
+                <input
+                  type="tel"
+                  name="phoneNumber"
+                  id="phoneNumber"
+                  class="input__text"
+                  placeholder="Enter your Phone number"
+                />
+              </div>
+              <div class="input input__group">
+                <button
+                  class="
+                    input__button input__button--med input__button--positive
+                  "
+                >
+                  Send
+                </button>
+                <button
+                  class="
+                    input__button input__button--med input__button--positive
+                  "
+                >
+                  Done
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
         <div class="form">
           <h1 class="form__header">Subscribe Form</h1>
-          <form class="form__inner">
-            <div class="input input__field">
-              <label for="subscribeEmail" class="input__label--icon"
-                ><span class="fas fa-envelope"></span
-              ></label>
-              <input
-                type="email"
-                name="subscribeEmail"
-                id="subscribeEmail"
-                class="input__text"
-                placeholder="Enter your Email"
-              />
-            </div>
-            <div class="input input__group">
-              <button
-                class="input__button input__button--small input__button--positive"
-              >
-                Subscribe
-              </button>
-              <button
-                class="input__button input__button--small input__button--negative"
-              >
-                No, Thanks
-              </button>
-            </div>
-          </form>
+          <div class="form__shadow">
+            <form class="form__inner">
+              <div class="input input__field">
+                <label for="subscribeEmail" class="input__label--icon"
+                  ><span class="fas fa-envelope"></span
+                ></label>
+                <input
+                  type="email"
+                  name="subscribeEmail"
+                  id="subscribeEmail"
+                  class="input__text"
+                  placeholder="Enter your Email"
+                />
+              </div>
+              <div class="input input__group">
+                <button
+                  class="
+                    input__button input__button--med input__button--positive
+                  "
+                >
+                  Subscribe
+                </button>
+                <button
+                  class="
+                    input__button input__button--med input__button--negative
+                  "
+                >
+                  No, Thanks
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-        <img src="image_asset/Masteralb.com LOGO.svg" alt="logo" />
+        <div class="logo">
+          <img src="image_asset/Masteralb.com LOGO.svg" alt="logo" />
+        </div>
+        
       </div>
     </main>
   </body>
