@@ -30,14 +30,13 @@ body {
 .main {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: space-evenly;
   width: 1050px;
+  margin-bottom: 51px;
 }
 .main__column {
   display: flex;
   flex-direction: column;
-  /* margin-left: 79px; */
 }
 .form:not(:first-of-type){
   margin-top: 28.2px;
@@ -58,19 +57,7 @@ body {
   background-color: #f4f4f4;
   z-index: auto;
 }
-/* .form__inner::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  left: -18px;
-  top: -18px;
 
-
-  right: -18px;
-  bottom: -18px;
-  background-color: rgba(0, 0, 0, 0.23);
-  z-index: -1;
-} */
 .form__shadow {
   width: 420px;
   padding: 20px;
@@ -125,11 +112,9 @@ body {
 .input__select {
   appearance: none;
   display: flex;
-  /* position: relative; */
 }
 .input__field--select {
   position: relative;
-  /* z-index: -1; */
 }
 .input__field--select::after {
   position: absolute;
@@ -142,9 +127,7 @@ body {
   pointer-events: none;
   right: 21px;
 }
-/* .input__checker {
-  position: relative;
-} */
+
 .input__checkbox {
   appearance: none;
   position: relative;
@@ -186,10 +169,8 @@ body {
 }
 .input__button--big {
   font-size: 32px;
-  /* height: 48px; */
   line-height: 48px;
   width: 100%;
-  /* line-height: 50%; */
 }
 .input__button--positive {
   background: linear-gradient(to top, #80c41f, #a1d73d);
@@ -212,13 +193,11 @@ body {
   width: 148px;
   line-height: 41px;
   font-size: 24px;
-  /* margin-top: 21px; */
 }
 .input__button--small {
   width: 139px;
   line-height: 41px;
   font-size: 32px;
-  /* margin-top: 21px; */
 }
 .input__group {
   display: flex;
